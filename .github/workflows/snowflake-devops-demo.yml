@@ -26,4 +26,5 @@ jobs:
     
     name: Run a script
     env: DEV
+    run:
     echo "I am running a job in the DEV environment"
