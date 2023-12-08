@@ -27,5 +27,3 @@ jobs:
 
       - name: Deploying to Development
         environment: DEV
-        run:
-          echo "GITHUB_WORKSPACE: $GITHUB_WORKSPACE"
