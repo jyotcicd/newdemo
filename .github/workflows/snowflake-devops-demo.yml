@@ -26,3 +26,6 @@ jobs:
     
     name: Deploying to DEVELOPMENT
     environment: DEV
+
+    name: Deploying to PRODUCTION
+    environment: PROD
