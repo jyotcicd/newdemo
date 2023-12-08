@@ -12,7 +12,7 @@ on:
   workflow_dispatch:
   
 jobs:
-  deploy -snowflake-changes-job:
+  deploy-snowflake-changes-job:
     runs-on: ubuntu-latest
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
@@ -24,5 +24,5 @@ jobs:
         with:
           python-version: 3.8.x
     
-    name: Run a script
+    name: Deploying to DEVELOPMENT
     environment: DEV
