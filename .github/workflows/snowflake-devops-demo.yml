@@ -24,9 +24,5 @@ jobs:
         with:
           python-version: 3.8.x
     
-    name: Deploying to DEVELOPMENT
+    name: Deploying to Development
     environment: DEV
-
-    name: Deploying to PRODUCTION
-    environment: PROD
-    needs: DEV
