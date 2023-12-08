@@ -26,7 +26,6 @@ jobs:
           python-version: 3.8.x
 
       - name: Deploying to Development
-        environment:
-          DEV
-        run: |
+        environment: DEV
+        run:
           echo "GITHUB_WORKSPACE: $GITHUB_WORKSPACE"
