@@ -31,6 +31,7 @@ jobs:
   PROD:
     runs-on: ubuntu-latest
     environment: PROD
+    needs: DEV
   
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
