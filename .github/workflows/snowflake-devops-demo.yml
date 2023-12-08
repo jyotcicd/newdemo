@@ -10,11 +10,10 @@ on:
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-
+  
 jobs:
   deploy-snowflake-changes-job:
     runs-on: ubuntu-latest
-
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout repository
@@ -24,6 +23,6 @@ jobs:
         uses: actions/setup-python@v2.2.1
         with:
           python-version: 3.8.x
-
-      - name: Deploying to Development
-        environment: DEV
+    
+    name: Deploying to Development
+    environment: DEV
